@@ -1,0 +1,9 @@
+/* Custom Theme */
+$color-brand: #f8ae2c;
+$color-brand-light: #fac261;
+$color-brand-dark: #c68b23;
+@import "~taro-ui/dist/style/index.scss";
+
+*{
+    box-sizing: border-box;
+}

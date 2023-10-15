@@ -1,0 +1,30 @@
+.navbar{
+    &-wrapper{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding:40px;
+        z-index: 2;
+        & .logo{
+            width: 210px;
+        }
+    }
+    .action{
+        display: flex;
+        color:#fff;
+        gap:10px;
+    }
+    .icon-action{
+        width: 88px;
+        height: 88px;
+        border-radius: 100%;
+        background: #fff;
+        text-align: center;
+        line-height: 88px;
+        font-size: 54px;
+        color: #000;
+    }
+}
